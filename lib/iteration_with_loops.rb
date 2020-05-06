@@ -7,7 +7,7 @@ def find_even_values(src)
   while outer_index < src.count#while 0 < array[0].count => 3
     inner_index = 0
 
-    while inner_index < src[outer_index].count do#0 < array[0].count =>3
+    while inner_index < src[outer_index].count #0 < array[0].count =>3
       if src[outer_index][inner_index] % 2 == 0
         puts src[outer_index][inner_index]
       end
